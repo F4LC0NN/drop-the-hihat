@@ -1,0 +1,88 @@
+html {
+	box-sizing: border-box;
+	background: linear-gradient(to bottom, #5e5e5e, #202020);
+	background-attachment: scroll;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 120vh;
+}
+
+header {
+	display: flex;
+	height: 10vh;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+img {
+	height: 60px;
+	width: 60px;
+}
+
+h1 {
+	font-size: 48px;
+	color: #fff;
+}
+
+section {
+	display: flex;
+	height: 80vh;
+	justify-content: center;
+	align-items: center;
+}
+
+#container {
+	display: grid;
+	width: 600px;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.key {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 15px;
+	height: 300px;
+	width: 300px;
+	color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.1);
+	font-weight: bold;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 8px;
+}
+
+.sound {
+	align-self: center;
+	font-size: 12px;
+}
+
+footer {
+	display: flex;
+	height: 10vh;
+	justify-content: center;
+	align-items: center;
+	color: rgba(255, 255, 255, 0.5);
+	font-style: italic;
+}
+
+.toggleAnimation {
+	transform: scale(0.99);
+}
