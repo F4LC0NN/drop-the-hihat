@@ -9,63 +9,55 @@
 		<title>Drop The Hihat</title>
 	</head>
 	<body>
+		<!-- Height: 10vh -->
 		<header>
 			<img src="images/logo.svg" />
 			<h1 id="title">DROP THE HIHAT!</h1>
 		</header>
 
+		<!-- Height: 80vh -->
+		<!-- Create the pads that will trigger the sounds -->
 		<section>
 			<div id="container">
-				<div data-key="49" class="key row-one">
+				<div data-key="49" class="key row-one" id="one">
 					<kbd>1</kbd>
-					<span class="sound"></span>
 				</div>
-				<div data-key="50" class="key row-one">
+				<div data-key="50" class="key row-one" id="two">
 					<kbd>2</kbd>
-					<span class="sound"></span>
 				</div>
-				<div data-key="51" class="key row-one">
+				<div data-key="51" class="key row-one" id="three">
 					<kbd>3</kbd>
-					<span class="sound"></span>
 				</div>
-				<div data-key="52" class="key row-one">
+				<div data-key="52" class="key row-one" id="four">
 					<kbd>4</kbd>
-					<span class="sound"></span>
 				</div>
-				<div data-key="65" class="key row-two">
+				<div data-key="65" class="key row-two" id="five">
 					<kbd>Q</kbd>
-					<span class="sound"></span>
 				</div>
-				<div data-key="90" class="key row-two">
-					<kbd>Z</kbd>
-					<span class="sound"></span>
+				<div data-key="90" class="key row-two" id="six">
+					<kbd>W</kbd>
 				</div>
-				<div data-key="69" class="key row-two">
+				<div data-key="69" class="key row-two" id="seven">
 					<kbd>E</kbd>
-					<span class="sound"></span>
 				</div>
-				<div data-key="82" class="key row-two">
+				<div data-key="82" class="key row-two" id="eight">
 					<kbd>R</kbd>
-					<span class="sound"></span>
 				</div>
-				<div data-key="81" class="key row-three">
+				<div data-key="81" class="key row-three" id="nine">
 					<kbd>A</kbd>
-					<span class="sound"></span>
 				</div>
-				<div data-key="83" class="key row-three">
+				<div data-key="83" class="key row-three" id="ten">
 					<kbd>S</kbd>
-					<span class="sound"></span>
 				</div>
-				<div data-key="68" class="key row-three">
+				<div data-key="68" class="key row-three" id="eleven">
 					<kbd>D</kbd>
-					<span class="sound"></span>
 				</div>
-				<div data-key="70" class="key row-three">
+				<div data-key="70" class="key row-three" id="twelve">
 					<kbd>F</kbd>
-					<span class="sound"></span>
 				</div>
 			</div>
 
+			<!-- Load the audio files & assign one keycode to each -->
 			<audio data-key="49" src="sounds/clap.wav"></audio>
 			<audio data-key="50" src="sounds/hihat.wav"></audio>
 			<audio data-key="51" src="sounds/kick.wav"></audio>
@@ -80,6 +72,9 @@
 			<audio data-key="70" src="sounds/crash.wav"></audio>
 		</section>
 
-		<footer><p>Copyright © Ruben THOMAS - 2022</p></footer>
+		<!-- Height: 10vh -->
+		<footer>
+			<p>Copyright © Ruben THOMAS - 2022</p>
+		</footer>
 	</body>
 </html>
