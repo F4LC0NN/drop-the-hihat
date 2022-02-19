@@ -2,7 +2,7 @@ html {
 	box-sizing: border-box;
 	background: linear-gradient(to bottom, #5e5e5e, #202020);
 	background-attachment: scroll;
-	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-family: "Poppins", sans-serif;
 }
 
 *,
@@ -69,11 +69,6 @@ section {
 	border-radius: 8px;
 }
 
-.sound {
-	align-self: center;
-	font-size: 12px;
-}
-
 footer {
 	display: flex;
 	height: 10vh;
@@ -83,6 +78,9 @@ footer {
 	font-style: italic;
 }
 
+/* 
+Use this class in the javascript code to scale down the pads dynamically 
+*/
 .toggleAnimation {
 	transform: scale(0.99);
 }
